@@ -6,7 +6,6 @@ import { IoCloseCircleSharp } from "react-icons/io5";
 import { AnimatePresence, motion } from 'framer-motion';
 import { Link, NavLink } from 'react-router-dom';
 import { navlinks } from '../Constant';
-import { div } from 'framer-motion/client';
 import { sideVariants, itemVariants } from '../utils/Motion';
 import { AiOutlineClose } from 'react-icons/ai';
 
@@ -20,7 +19,7 @@ const navbar = () => {
   }
   return (
     <>
-      <nav className='z-10 hidden md:flex lg:flex justify-around fixed w-full'>
+      <nav className='z-10 hidden md:flex lg:flex justify-around fixed w-full bg-[#181818] mt-[-6vh]'>
         <img src={logo} alt="logo" className='w-[12%] h-12 cursor-pointer mt-1' />
         <div className='flex items-center justify-between lg:w-[30%] md:w-[40%]'>
             {

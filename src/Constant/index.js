@@ -21,6 +21,7 @@ import avatarB from '../assets/avatarB.png'
 import avatarC from '../assets/avatarC.png'
 import avatarD from '../assets/avatarD.png'
 
+
 export const navlinks = [
    {
     name: "Home",   
@@ -145,5 +146,34 @@ export const testimonials = [
     },
 ]
 
+export const footer = [
+    {
+        name: "Company",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    },
+    {
+        name: "Resources",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    },
+    {
+        name: "About",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    }
+]
 
 

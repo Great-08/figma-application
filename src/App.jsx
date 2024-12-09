@@ -6,6 +6,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Product from './Pages/Product'
+import Footer from './Components/Footer'
 
 
 const App = () => {
@@ -19,9 +20,9 @@ const App = () => {
       <Route path='/product' element={ <Product /> } />
       <Route path='/contact' element={ <Contact /> } />
 
-      
-
     </Routes>
+
+    <Footer/>
     </div>
   )
 };

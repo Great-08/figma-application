@@ -20,6 +20,20 @@ import avatarA from '../assets/avatarA.png'
 import avatarB from '../assets/avatarB.png'
 import avatarC from '../assets/avatarC.png'
 import avatarD from '../assets/avatarD.png'
+import cars1 from '../assets/cars1.jpg'
+import cars2 from '../assets/cars2.jpg'
+import cars3 from '../assets/cars3.jpg'
+import cars4 from '../assets/cars4.jpg'
+import cars5 from '../assets/cars5.jpg'
+import cars6 from '../assets/cars6.jpg'
+import cars7 from '../assets/cars7.jpg'
+import cars8 from '../assets/cars8.jpg'
+import cars9 from '../assets/cars9.jpg'
+import cars10 from '../assets/cars10.jpg'
+import cars11 from '../assets/cars11.jpg'
+import cars12 from '../assets/cars12.jpg'
+
+
 
 
 export const navlinks = [
@@ -94,6 +108,72 @@ export const galleryTop = [
         name: 'carda',
         icon: CardA,
     },
+]
+
+export const productTop = [
+    {
+        name: 'Blender',
+        icon: cars1,
+        amount: '20,000',
+    },
+    {
+        name:  'Juicer', 
+        icon:  cars2,
+        amount: '30,000',
+    },
+    {
+        name:  'Microwave', 
+        icon:   cars3,
+        amount: '10,000',
+    },
+    {
+        name:  'Electric kettle',
+        icon:  cars4,
+        amount: '26,000', 
+    },
+    {
+        name:  'Television',
+        icon:   cars5,
+        amount: '39,000',
+    },
+    {
+        name:  'Fridge',
+        icon:   cars6,
+        amount: '50,000',
+    },
+    {
+        name:  'Electric Stove',
+        icon:   cars7,
+        amount: '51,000',
+    },
+    {
+        name:  'Toaster',
+        icon:   cars8,
+        amount: '51,100',
+    },
+    {
+        name:  'Waffle Maker',
+        icon:   cars9,
+        amount: '60,000',
+    },
+    {
+        name:  'Mixer',
+        icon:   cars10,
+        amount: '20,000',
+    },
+    {
+        name:  'Stove',
+        icon:   cars11,
+        amount: '500,000',
+    },
+    {
+        name:  'Air conditioner', 
+        icon:   cars12,
+        amount: '400,000',
+
+    },
+
+
 ]
 
 export const galleryBottom = [
